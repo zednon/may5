@@ -1,0 +1,64 @@
+header {
+    background-color: rgb(12, 1, 19);
+    height: auto;
+}
+
+.layingPage {
+    background-color: lightgray;
+    height: auto;
+}
+
+footer {
+    background-color: grey;
+    height: 200px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainNavBarLi {
+    display: inline-block; 
+    padding: 30px;
+    margin: 10px;
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 36px;
+    justify-content: center;
+}
+
+.mainNavBarLi a {
+    text-decoration: none;
+    color: rgb(179, 223, 175);
+    font-weight: 800;
+ 
+}
+
+.mainNavBarLi a:hover {
+    color: rgb(169, 182, 199);
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+.landingImg {
+    width: 100%;
+    height: auto;
+}
+
+.twoBlocksOneShortOneLong {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.landingText {
+    margin: 20px;
+    height: auto;
+    color: rgb(12, 1, 19);
+}
